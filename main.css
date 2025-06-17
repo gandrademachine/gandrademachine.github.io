@@ -1,9 +1,22 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f7f7f7;
+  /*background: #f7f7f7;*/
+  background: #000000;
 }
+img {
+  border-radius: 25px;
+}
+.imgmain {
+  width: 200px;
+  float: right;
+  position: relative;
+  top:-90px;
+}
+img {
+  width:200px;
 
+}
 header {
   width: 100vw;
   border-bottom-left-radius: 2em;

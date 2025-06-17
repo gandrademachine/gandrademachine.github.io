@@ -12,49 +12,56 @@
 </head>
 <body>
   <header>
-    <nav>
+<!--    <nav>
       <ul class="menu">
         <li><a href="#home">Home</a></li>
-        <li><a href="#features">Features</a></li>
+        <li><a href="#features">Publications</a></li>
+        <li><a href="#features">Reviews</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
+</nav> -->
   </header>
 <main class="landing">
   <section id="home">
     <h1>Welcome to my page</h1>
-    
-    <a href="#research" class="cta-button">See My Research</a>
+    <div class="imgmain">
+      <img src="main.jpeg" alt="main">
+    </div>
+    <!--<a href="#research" class="cta-button">See My Research</a>-->
   </section>
   <section id="research">
     <h2>Research</h2>
-    <p>
-      I am a Computer Engineer at the Instituto Politécnico of the Universidade do Estado do Rio de Janeiro (IPRJ/UERJ), have 
-      master degree in Computational modeling at the Instituto Politécnico of the Universidade do Estado do Rio de Janeiro (IPRJ/UERJ). My research interests include:
-    </p>
+    Here are my main fields or research. Basically I use Lagrangian and
+    Hamiltonian Physics applied to computer vision such as camera location and
+    3D reconstruction.
     <ul>
       <li>Computer Vision</li>
       <li>3D reconstruction</li>
       <li>Dynamical Systems and Lagrangian Mechanics</li>
     </ul>
   </section>
-  <section id="about">
-    <h2>About Myself</h2>
-    <p>
-     I am a Computer Engineer and researcher.
-     My work focuses on applying computational 
-     techniques to solve complex problems in various domains, mainly in computer vision using dynamical systems, more precisely .
-    </p>
-    <p>Also, I am a gamer and MtG player at my free time. 
-      Check my Moxfield profile <a href="https://www.moxfield.com/users/bielhpp" target="_blank">here</a>.</p>
-  </section>
   <section id="works">
     <h2>Publications</h2>
+    Here some publications. The ones in Portuguese, I'll make it available in
+    English or if it is published elswhere else I'll mark here!
     <ul>
+      <li>Extensão de pipelines em reconstrução 3D usando geometria trinocular, REVISTA INTERDISCIPLINAR DE PESQUISA EM ENGENHARIA, v. 9, p. 83-90, 2024. </li>
+      <li>Extensão de pipelines em reconstrução 3D usando geometria trinocular, XXVI Encontro
+        Nacional de Modelagem Computacional e XIV Encontro Encontro de Ciência e Tecnologia
+dos Materiais, 2023</li>
+      <li>Formulação Hamiltoniana na descrição do movimento de uma câmera sobre
+        uma superfície esférica com objeto no centro da esfera, XXVI Encontro
+        Nacional de Modelagem Computacional e XIV Encontro Encontro de Ciência e Tecnologia
+dos Materiais, 2023</li>
+      <li>PACOTE HSYSTEMS-ANALISYS. In: XXII ENCONTRO NACIONAL DE MODELAGEM COMPUTACIONAL e X ENCONTRO DE CIÊNCIA E TECNOLOGIA DE MATERIAIS, 2019</li>
+      <li>UM PACOTE PARA CLASSIFICAÇÃO DE PONTOS FIXOS. In: 28a SEMIC-UERJ, 2019, </li>
     </ul>
     <h2>Reviews</h2>
+    I have done some paper reviews under supervision of my advisor since my
+    graduation. Here all that I have done until now.
     <ul>
+      <li>ISPRS Journal of Photogrammetry and Remote Sensing, 2025</li>
       <li>British Machine Vision Conference - BMCV 2025</li>
       <li>Journal of Optics and Laser Technology - JOLT 2025</li>
       <li>XIX Workshop de Visão Computacional - 2024</li>
@@ -65,10 +72,29 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: gabriel.andrade@iprj.uerj.br</p>
+    <p>Linked-In (rarely used): 
+    <a href="https://www.linkedin.com/in/gabriel-andrade-84ab87201/">Gabriel
+      Andrade</a></p>
+  </section>
+  <section id="about">
+    <h2>About Myself</h2>
+    <ul>
+      <li>Computational Modeling Phd. Student at IPRJ-UERJ</li>
+      <li>Master in Computational Modeling at IPRJ-UERJ</li>
+      <li>Computer Engineer at IPRJ-UERJ</li>
+      <li>Contribution into OpenMVG (My undergraduation final project and early
+      MSc. work.)</li>
+      <li>Member of partnership Labvis-Lems (IPRJ-UERJ partnership with Brown U.) </li>
+      <li> Gamer and MtG player in my spare time. Check my Moxfield profile <a href="https://www.moxfield.com/users/bielhpp" target="_blank">here</a></li>
+      <li>I'm the creator of the "combo" <a
+          href="https://commanderspellbook.com/combo/5069-5080/">maddening
+          cacophony + duskmantle guildmage</a> (Proud to see my janky play
+        worldwide)</li>
+    </ul>
   </section>
 </main>
   <footer>
-    <p>&copy; 2025 Gabriel Andrade. All rights reserved.</p>
+    <p>&copy; 2025 Gabriel Andrade.</p>
   </footer>
 </body>
 </body>
